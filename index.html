@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YUMA – Band from Graz</title>
+
+  <!-- Meta -->
+  <meta name="description" content="YUMA is a band from Graz, Austria. Four musicians, one sound. Listen to their latest album KISS and catch them live." />
+
+  <!-- Open Graph (WhatsApp, Facebook, etc.) -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:title"       content="YUMA – Band from Graz" />
+  <meta property="og:description" content="Four musicians, one sound. Listen to KISS and catch YUMA live." />
+  <meta property="og:image"       content="https://yumamusic.at/band.jpg" />
+  <meta property="og:url"         content="https://yumamusic.at/" />
+
+  <!-- Twitter/X Card -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="YUMA – Band from Graz" />
+  <meta name="twitter:description" content="Four musicians, one sound. Listen to KISS and catch YUMA live." />
+  <meta name="twitter:image"       content="https://yumamusic.at/band.jpg" />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">YUM<span>A</span></a>
+      <button class="burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#band">Band</a></li>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#live">Live</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-social">
+        <a href="https://www.instagram.com/yumamusic.official/" target="_blank" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://www.youtube.com/@yumamusic3010" target="_blank" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.8 8s-.2-1.4-.8-2c-.8-.8-1.6-.8-2-.9C16.2 5 12 5 12 5s-4.2 0-7 .1c-.4.1-1.2.1-2 .9-.6.6-.8 2-.8 2S2 9.6 2 11.2v1.5c0 1.6.2 3.2.2 3.2s.2 1.4.8 2c.8.8 1.8.8 2.2.8C6.8 19 12 19 12 19s4.2 0 7-.2c.4-.1 1.2-.1 2-.9.6-.6.8-2 .8-2s.2-1.6.2-3.2v-1.5C22 9.6 21.8 8 21.8 8zM9.7 14.5V9l5.4 2.8-5.4 2.7z"/></svg>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100078709454832" target="_blank" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-video-bg">
+      <video autoplay muted loop playsinline>
+        <source src="hero.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-video-overlay"></div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- BAND -->
+  <section id="band">
+    <div class="band-photo-wrap reveal">
+      <img src="band.jpg" alt="YUMA – The Band" loading="lazy" />
+      <div class="band-photo-overlay"></div>
+    </div>
+    <div class="container">
+      <p class="section-label reveal">The Band</p>
+      <h2 class="section-title reveal">Four<br>Musicians</h2>
+      <div class="band-list">
+        <div class="band-row reveal">
+          <span class="band-num">01</span>
+          <h3 class="band-name">Sri Yuliyanti</h3>
+          <span class="band-role">Vocals</span>
+        </div>
+        <div class="band-row reveal">
+          <span class="band-num">02</span>
+          <h3 class="band-name">Manfred Kowatsch</h3>
+          <span class="band-role">Guitar · Sounds · Vocals</span>
+        </div>
+        <div class="band-row reveal">
+          <span class="band-num">03</span>
+          <h3 class="band-name">Elmar Berger</h3>
+          <span class="band-role">Drums</span>
+        </div>
+        <div class="band-row reveal">
+          <span class="band-num">04</span>
+          <h3 class="band-name">Thomas Holzmann</h3>
+          <span class="band-role">Bass · Vocals</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MUSIC -->
+  <section id="music">
+    <div class="container">
+      <p class="section-label reveal">Music</p>
+      <h2 class="section-title reveal">Videos &amp;<br>Releases</h2>
+
+      <div class="music-layout">
+        <div class="video-player-wrap reveal">
+          <video id="main-video" controls>
+            <source src="kiss-me.mp4" type="video/mp4" />
+          </video>
+          <div class="video-playlist">
+            <button class="video-thumb active" data-src="kiss-me.mp4">
+              <span class="vt-num">01</span>
+              <span class="vt-title">Kiss Me Like a Butterfly</span>
+            </button>
+            <button class="video-thumb" data-src="freedom.mp4">
+              <span class="vt-num">02</span>
+              <span class="vt-title">Freedom</span>
+            </button>
+            <button class="video-thumb" data-src="hidden-phenomenon.mp4">
+              <span class="vt-num">03</span>
+              <span class="vt-title">Hidden Phenomenon</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="music-side reveal">
+          <a href="https://www.artistcamp.com/yuma-music/kiss/9008798647118/index.html" target="_blank" class="album-block">
+            <div class="album-cover-graphic">KISS</div>
+            <div>
+              <p class="album-meta-label">Latest Album</p>
+              <h3 class="album-meta-title">KISS</h3>
+              <span class="album-meta-link">Listen on Artistcamp</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIVE -->
+  <section id="live">
+    <div class="container">
+      <p class="section-label reveal">Shows</p>
+      <h2 class="section-title reveal">Live<br>Dates</h2>
+
+      <div class="live-list">
+          <div class="live-row reveal">
+            <div class="live-row-num">07</div>
+            <div class="live-row-info">
+              <h3 class="live-row-venue">Club Wakuum</h3>
+              <div class="live-row-meta">
+                <span>June 2025</span>
+                <span class="live-row-meta-sep">|</span>
+                <span>Graz, Austria</span>
+              </div>
+            </div>
+            <div class="live-row-tag live-tag-live">Live</div>
+          </div>
+
+          <div class="live-row reveal">
+            <div class="live-row-num">01</div>
+            <div class="live-row-info">
+              <h3 class="live-row-venue">Sunny Days Festival</h3>
+              <div class="live-row-meta">
+                <span>August 2025</span>
+                <span class="live-row-meta-sep">|</span>
+                <span>Dietersdorf, Austria</span>
+              </div>
+            </div>
+            <div class="live-row-tag live-tag-festival">Festival</div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-layout">
+        <div class="contact-text">
+          <p class="section-label reveal">Contact &amp; Booking</p>
+          <h2 class="reveal">Get in<br><span>Touch</span></h2>
+          <p class="reveal">
+            Interested in booking YUMA or working together?
+            We'd love to hear from you.
+          </p>
+          <div class="hero-ctas reveal">
+            <a href="mailto:yumamusic.official@gmail.com" class="btn btn-primary">Send an Email</a>
+          </div>
+        </div>
+
+        <div class="contact-links reveal">
+          <a href="mailto:yumamusic.official@gmail.com" class="contact-row">
+            <div class="contact-row-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div class="contact-row-content">
+              <p class="contact-row-label">Email</p>
+              <p class="contact-row-value">yumamusic.official@gmail.com</p>
+            </div>
+            <span class="contact-row-arrow">→</span>
+          </a>
+
+          <a href="https://www.instagram.com/yumamusic.official/" target="_blank" class="contact-row">
+            <div class="contact-row-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </div>
+            <div class="contact-row-content">
+              <p class="contact-row-label">Instagram</p>
+              <p class="contact-row-value">@yumamusic.official</p>
+            </div>
+            <span class="contact-row-arrow">→</span>
+          </a>
+
+          <a href="https://www.youtube.com/@yumamusic3010" target="_blank" class="contact-row">
+            <div class="contact-row-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.8 8s-.2-1.4-.8-2c-.8-.8-1.6-.8-2-.9C16.2 5 12 5 12 5s-4.2 0-7 .1c-.4.1-1.2.1-2 .9-.6.6-.8 2-.8 2S2 9.6 2 11.2v1.5c0 1.6.2 3.2.2 3.2s.2 1.4.8 2c.8.8 1.8.8 2.2.8C6.8 19 12 19 12 19s4.2 0 7-.2c.4-.1 1.2-.1 2-.9.6-.6.8-2 .8-2s.2-1.6.2-3.2v-1.5C22 9.6 21.8 8 21.8 8zM9.7 14.5V9l5.4 2.8-5.4 2.7z"/></svg>
+            </div>
+            <div class="contact-row-content">
+              <p class="contact-row-label">YouTube</p>
+              <p class="contact-row-value">@yumamusic3010</p>
+            </div>
+            <span class="contact-row-arrow">→</span>
+          </a>
+
+          <a href="https://www.facebook.com/profile.php?id=100078709454832" target="_blank" class="contact-row">
+            <div class="contact-row-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </div>
+            <div class="contact-row-content">
+              <p class="contact-row-label">Facebook</p>
+              <p class="contact-row-value">YUMA Music</p>
+            </div>
+            <span class="contact-row-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p class="footer-logo">YUM<span>A</span></p>
+      <p class="footer-copy">© <span id="year"></span> YUMA Music · Graz, Austria · <a href="impressum.html" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">Impressum</a></p>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/yumamusic.official/" target="_blank">IG</a>
+        <a href="https://www.youtube.com/@yumamusic3010" target="_blank">YT</a>
+        <a href="https://www.facebook.com/profile.php?id=100078709454832" target="_blank">FB</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>

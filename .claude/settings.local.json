@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:yumamusic.at)",
+      "WebFetch(domain:www.youtube.com)",
+      "PowerShell(Copy-Item \"C:\\\\Users\\\\Georg\\\\Desktop\\\\Yuli zeugs\\\\FREEDOM.mp4\" \"C:\\\\Users\\\\Georg\\\\Desktop\\\\Yuma\\\\freedom.mp4\")",
+      "PowerShell(Copy-Item \"C:\\\\Users\\\\Georg\\\\Desktop\\\\Yuli zeugs\\\\Hidden Phenomenon.mp4\" \"C:\\\\Users\\\\Georg\\\\Desktop\\\\Yuma\\\\hidden-phenomenon.mp4\")",
+      "PowerShell(Copy-Item \"C:\\\\Users\\\\Georg\\\\Desktop\\\\Yuli zeugs\\\\KISS ME LIKE A BUTTERFLY-.mp4\" \"C:\\\\Users\\\\Georg\\\\Desktop\\\\Yuma\\\\kiss-me.mp4\")"
+    ]
+  }
+}

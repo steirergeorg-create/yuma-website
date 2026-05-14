@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Impressum – YUMA</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .impressum-page {
+      min-height: 100svh;
+      padding: calc(var(--nav-h) + 80px) 0 120px;
+    }
+    .impressum-page h1 {
+      font-family: 'Anton', sans-serif;
+      font-size: clamp(2.8rem, 5vw, 4.5rem);
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      margin-bottom: 64px;
+    }
+    .impressum-block {
+      margin-bottom: 48px;
+      max-width: 600px;
+    }
+    .impressum-block h2 {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+    .impressum-block p {
+      font-size: 0.95rem;
+      line-height: 1.8;
+      color: var(--white);
+    }
+    .impressum-block a {
+      color: var(--white);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .impressum-block a:hover { color: var(--muted); }
+    .impressum-divider {
+      width: 40px;
+      height: 1px;
+      background: var(--grey3);
+      margin-bottom: 48px;
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 64px;
+      transition: color 0.28s ease;
+    }
+    .back-link:hover { color: var(--white); }
+  </style>
+</head>
+<body>
+
+  <nav id="navbar" class="scrolled">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">YUMA</a>
+    </div>
+  </nav>
+
+  <main class="impressum-page">
+    <div class="container">
+
+      <a href="index.html" class="back-link">← Back to Website</a>
+
+      <h1>Impressum</h1>
+
+      <div class="impressum-block">
+        <h2>Medieninhaber & Herausgeber</h2>
+        <p>
+          [Vor- und Nachname]<br />
+          [Straße und Hausnummer]<br />
+          [PLZ] [Ort]<br />
+          Österreich
+        </p>
+      </div>
+
+      <div class="impressum-divider"></div>
+
+      <div class="impressum-block">
+        <h2>Kontakt</h2>
+        <p>
+          E-Mail: <a href="mailto:yumamusic.official@gmail.com">yumamusic.official@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="impressum-divider"></div>
+
+      <div class="impressum-block">
+        <h2>Zweck der Website</h2>
+        <p>
+          Diese Website dient der Präsentation der Musikband YUMA.<br />
+          Sie enthält Informationen zur Band, zu Auftritten sowie Musik- und Videoinhalte.
+        </p>
+      </div>
+
+      <div class="impressum-divider"></div>
+
+      <div class="impressum-block">
+        <h2>Urheberrecht</h2>
+        <p>
+          Alle Inhalte dieser Website (Texte, Bilder, Videos) sind urheberrechtlich geschützt.
+          Die Vervielfältigung, Bearbeitung oder Verbreitung bedarf der schriftlichen Zustimmung
+          der Rechteinhaber.
+        </p>
+      </div>
+
+      <div class="impressum-divider"></div>
+
+      <div class="impressum-block">
+        <h2>Haftungsausschluss</h2>
+        <p>
+          Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte
+          externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber
+          verantwortlich.
+        </p>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
